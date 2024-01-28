@@ -1,0 +1,65 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #a5eef4, #f2bdf9);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+#inputbox {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+}
+
+.checkmark {
+    cursor: pointer;
+    color: #4caf50;
+    font-size: 1.2em;
+}
