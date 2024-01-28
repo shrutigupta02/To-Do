@@ -1,2 +1,2 @@
 # To-Do
-This is my a web app to organise and manage tasks.
+This is a To-Do app I'd built to manage my tasks in a aesthetically appealing manner.
